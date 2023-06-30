@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #left-panel {
+    width: 200px;
+    background-color: #4287f5;
+    padding: 10px;
+  }
+  
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+  a:hover {
+    background-color: #fff;
+    color: #4287f5;
+  }
+  
+  #content-area {
+    flex-grow: 1;
+    padding: 10px;
+  }
+  
+  .content {
+    display: none;
+    transition: opacity 0.3s;
+  }
+  
+  .content.show {
+    display: block;
+    opacity: 1;
+  }
+  
